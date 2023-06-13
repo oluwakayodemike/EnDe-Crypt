@@ -79,5 +79,6 @@ elif user_choice == "decrypt":
     # if user exceed the max. attempt then exit the script...
     if not decrypted_successfully:
         print("You have exceeded your max attempt. Exiting the script...")
+# if use enter anything other than encrypt or decrypt print an error
 else:
     print("Invalid Option. Please enter 'encrypt' or 'decrypt'.")
