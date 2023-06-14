@@ -65,7 +65,7 @@ Decrypts the input file using the provided encryption key and saves the decrypte
 ```
 oluwakayodemike@ubuntu:~/Code/EnDe-Crypt$ python main.py
 Do you want to encrypt or decrypt? Enter 'encrypt' or 'decrypt': encrypt
-Enter the path to the file you want to encrypt: /Code/EnDe-Crypt/me.jpg
+Enter the path to the file you want to encrypt: ~/Code/EnDe-Crypt/me.jpg
 File encrypted successfully.
 Encryption Key:  cqCSHQWUx6egzCRhQmKRp-xpQfwhTjXFfSDq7EYP1OQ=
 ```
@@ -74,7 +74,7 @@ Encryption Key:  cqCSHQWUx6egzCRhQmKRp-xpQfwhTjXFfSDq7EYP1OQ=
 ```
 oluwakayodemike@ubuntu:~/Code/EnDe-Crypt$ python main.py
 Do you want to encrypt or decrypt? Enter 'encrypt' or 'decrypt': decrypt                                              
-Enter the path to the file you want to decrypt: /Code/EnDe-Crypt/me_encrypt.jpg
+Enter the path to the file you want to decrypt: ~/Code/EnDe-Crypt/me_encrypt.jpg
 Enter the encryption key: cqCSHQWUx6egzCRhQmKRp-xpQfwhTjXFfSDq7EYP1OQ=
 File decrypted successfully.
 ```
