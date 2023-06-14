@@ -60,19 +60,6 @@ Decrypts the input file using the provided encryption key and saves the decrypte
 - `file_path`: The path to the file to be decrypted.
 - `output_file`: The path to save the decrypted file.
 
-## Usage Examples
-
-- Encrypting a file:
-  - Run the script, choose 'encrypt' as the action.
-  - Enter the path to the file you want to encrypt.
-  - The script will generate an encryption key and save the encrypted file with the "_encrypt" suffix added to the original file name.
-
-- Decrypting a file:
-  - Run the script, choose 'decrypt' as the action.
-  - Enter the path to the file you want to decrypt.
-  - Provide the encryption key used during encryption.
-  - The script will decrypt the file and save the decrypted version with the "_decrypt" suffix added to the original file name.
-
 ## Using the Console. 
 ### Encrypting:
 ```
