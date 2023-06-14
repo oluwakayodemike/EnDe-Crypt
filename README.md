@@ -15,7 +15,7 @@ git clone https://github.com/oluwakayodemike/EnDe-Crypt/
 python main.py
 ```
 
-## Usage
+## Usage 
 
 1. Run the script and choose whether to encrypt or decrypt a file.
 2. If encrypting:
@@ -38,7 +38,7 @@ sudo apt install python3
 ```
 - cryptography library: Required to perform the encryption and decryption operations. Install it using `pip install cryptography`.
 
-## Functions
+## Functions 🤖
 
 ### `generate_key()`
 
@@ -60,8 +60,8 @@ Decrypts the input file using the provided encryption key and saves the decrypte
 - `file_path`: The path to the file to be decrypted.
 - `output_file`: The path to save the decrypted file.
 
-## Using the Console. 
-### Encrypting:
+## Using the Console. 💻
+### Encrypting 🔐:
 ```
 oluwakayodemike@ubuntu:~/Code/EnDe-Crypt$ python main.py
 Do you want to encrypt or decrypt? Enter 'encrypt' or 'decrypt': encrypt
@@ -70,7 +70,7 @@ File encrypted successfully.
 Encryption Key:  cqCSHQWUx6egzCRhQmKRp-xpQfwhTjXFfSDq7EYP1OQ=
 ```
 
-### Decrypting:
+### Decrypting 🔓:
 ```
 oluwakayodemike@ubuntu:~/Code/EnDe-Crypt$ python main.py
 Do you want to encrypt or decrypt? Enter 'encrypt' or 'decrypt': decrypt                                              
@@ -82,10 +82,10 @@ File decrypted successfully.
 - Ensure you securely store the encryption key generated during encryption, as it is required for decryption.
 - The encrypted file will be with a suffix of '_encrypt' while the decrypt with '_decrypt'
 
-## Author
+## Author 👨🏽‍💻
 
 Oluwakayode Michael
 
-## License
+## License 🪪
 
 This project is licensed under the [MIT License](LICENSE).
