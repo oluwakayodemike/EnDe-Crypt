@@ -88,4 +88,4 @@ Oluwakayode Michael
 
 ## License 🪪
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License]([LICENSE](https://github.com/oluwakayodemike/EnDe-Crypt/blob/master/LICENSE.md)).
