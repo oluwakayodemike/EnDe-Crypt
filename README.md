@@ -6,7 +6,7 @@ This script enables users to encrypt and decrypt files using the Fernet symmetri
 
 After installing Python and the Crytography library You can run EnDe-Crypt locally on your terminal.
 
-- clone the repository:
+- clone the repo:
 ```bash
 git clone https://github.com/oluwakayodemike/EnDe-Crypt/
 ```
