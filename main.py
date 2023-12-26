@@ -57,7 +57,7 @@ elif user_choice == "decrypt":
 
     # prepare the file name and ext. and replace the '_encrypt' suffix in the encrypted file to '_decrypt'
     filename, file_extension = os.path.splitext(file_path)
-    decrypted_file = filename.replace("_encrypt", "_decrypt") + file_extension
+    decrypted_file = filename.replace("_encrypted", "_decrypted") + file_extension
 
     attempt = 0
     max_attempt = 3
